@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav style="position: sticky; top: 0; z-index: 10; text-align: center; background-color:#E6D2AA;" >
+            <a  href="index.html">Home Page</a>
+        <a  href="trash.html">My Hobbies</a>
+        <a  href="Contact.html">Contact Me</a>
+        <a  href="Resume.html">My CV</a>
+        <a  href="Semster Schedule .html">Schedule</a>
+        <a  href="Favorite Movies.html">Favorite Movies</a>
+        </nav>
+    <h1>My Favorite Movies</h1>
+    <h2 class="h2Style">1.The Dark Night</h2>
+    <h4>The Dark Knight is a 2008 superhero film directed by Christopher Nolan from a screenplay he co-wrote with his brother Jonathan. Based on the DC Comics superhero, <br> Batman, it is the sequel to Batman Begins (2005) and the second installment in The Dark Knight Trilogy. <br> The plot follows the vigilante Batman, police lieutenant James Gordon, and district attorney Harvey Dent, who form an alliance to dismantle organized crime in Gotham City. <br> Their efforts are derailed by the Joker, an anarchistic mastermind who seeks to test how far Batman will go to save the city from chaos. <br> The ensemble cast includes Christian Bale, Michael Caine, Heath Ledger, Gary Oldman, Aaron Eckhart, Maggie Gyllenhaal, and Morgan Freeman.</h4>
+    <button onclick="TheDarkImage()">TheDarkNight Poster</button>
+    <img id="TheDarkNight" src="./Photos and Videos/TheDarkNight.jpg" style="display: none;" width="320" height="240">
+    <h2 class="h2Style">2.The Shawshank Redimption</h2>
+    <h4>The Shawshank Redemption is a 1994 American drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption. <br>  It tells the story of banker Andy Dufresne (Tim Robbins), who is sentenced to life in Shawshank State Penitentiary for the murders of his wife and her lover, despite his claims of innocence. <br> Over the following two decades, he befriends a fellow prisoner, contraband smuggler Ellis "Red" Redding (Morgan Freeman), <br>  and becomes instrumental in a money-laundering operation led by the prison warden Samuel Norton (Bob Gunton). William Sadler, Clancy Brown, Gil Bellows, and James Whitmore appear in supporting roles.</h4>
+    <button onclick="TheShawshankImage()">TheShawshankRedmption Poster</button>
+    <img id="TheShawshank" src="./Photos and Videos/TheShawshankRedmption.jpg" style="display: none;" width="320" height="240">
+    <h2 class="h2Style">3.Fight Club</h2>
+    <h4>Fight Club is a 1999 American film directed by David Fincher and starring Brad Pitt, Edward Norton, and Helena Bonham Carter. <br> It is based on the 1996 novel of the same name by Chuck Palahniuk. Norton plays the unnamed narrator, who is discontented with his white-collar job. <br> He forms a "fight club" with soap salesman Tyler Durden (Pitt), and becomes embroiled in a relationship with a mysterious woman, Marla Singer (Bonham Carter).</h4>
+    <button onclick="FightImage()">FightClub Poster</button>
+    <img id="FightClub" src="./Photos and Videos/FightClub.jpg" style="display: none;" width="320" height="240">
+
+    
+
+
+<script>
+function TheDarkImage() {
+    var image = document.getElementById("TheDarkNight");
+  if (image.style.display === "none") {
+    image.style.display = "block";
+  } else {
+    image.style.display = "none";
+  }
+}
+  function TheShawshankImage() {
+    var image = document.getElementById("TheShawshank");
+  if (image.style.display === "none") {
+    image.style.display = "block";
+  } else {
+    image.style.display = "none";
+  }
+}
+  function FightImage() {
+    var image = document.getElementById("FightClub");
+  if (image.style.display === "none") {
+    image.style.display = "block";
+  } else {
+    image.style.display = "none";
+  }
+}
+</script>
+
+
+
+</body>
+</html>

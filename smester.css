@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  th, td{
+    background-color: whitesmoke;
+  }
+  body{
+    background-color: #E6D2AA;
+}
+
+hr{
+    border-style: none;
+    border-left: #42032C;
+    border-right:#42032C;
+    border-top: 5px dotted #42032C;
+    border-bottom: #42032C;
+    width: 4%;
+    height: auto;
+}
+h1, h3{
+    color:#42032C;
+}
+a:hover {
+    color: #42032C;
+  }
+a {
+    display: inline-block;
+    margin: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color:darkred;
+  }
+  /*.navbar {
+            
+            overflow: hidden;
+            width: 100%;
+            margin: auto;
+            position: fixed;
+          }
+           Style the links inside the navigation bar 
+          .navbar a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+          }
+          */
